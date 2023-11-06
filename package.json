@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "ali-oss": "^6.18.1",
+    "axios": "^1.4.0",
+    "esm": "^3.2.25",
+    "jsonstream": "^1.0.3",
+    "markdown-it": "^13.0.2",
+    "puppeteer": "^19.11.1",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "start": "node ./main.js",
+    "replace": "node ./export-img.cjs",
+    "upload": "node ./upload-all.cjs"
+  }
+}
